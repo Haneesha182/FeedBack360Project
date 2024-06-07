@@ -1,0 +1,17 @@
+C:\Users\DELL\source\repos\FeedBack360Project\BLFeedBack360\bin\Debug\net7.0\BLFeedBack360.deps.json
+C:\Users\DELL\source\repos\FeedBack360Project\BLFeedBack360\bin\Debug\net7.0\BLFeedBack360.dll
+C:\Users\DELL\source\repos\FeedBack360Project\BLFeedBack360\bin\Debug\net7.0\BLFeedBack360.pdb
+C:\Users\DELL\source\repos\FeedBack360Project\BLFeedBack360\obj\Debug\net7.0\BLFeedBack360.csproj.AssemblyReference.cache
+C:\Users\DELL\source\repos\FeedBack360Project\BLFeedBack360\obj\Debug\net7.0\BLFeedBack360.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\DELL\source\repos\FeedBack360Project\BLFeedBack360\obj\Debug\net7.0\BLFeedBack360.AssemblyInfoInputs.cache
+C:\Users\DELL\source\repos\FeedBack360Project\BLFeedBack360\obj\Debug\net7.0\BLFeedBack360.AssemblyInfo.cs
+C:\Users\DELL\source\repos\FeedBack360Project\BLFeedBack360\obj\Debug\net7.0\BLFeedBack360.csproj.CoreCompileInputs.cache
+C:\Users\DELL\source\repos\FeedBack360Project\BLFeedBack360\obj\Debug\net7.0\BLFeedBack360.dll
+C:\Users\DELL\source\repos\FeedBack360Project\BLFeedBack360\obj\Debug\net7.0\refint\BLFeedBack360.dll
+C:\Users\DELL\source\repos\FeedBack360Project\BLFeedBack360\obj\Debug\net7.0\BLFeedBack360.pdb
+C:\Users\DELL\source\repos\FeedBack360Project\BLFeedBack360\obj\Debug\net7.0\ref\BLFeedBack360.dll
+C:\Users\DELL\source\repos\FeedBack360Project\BLFeedBack360\bin\Debug\net7.0\DLFeedBack360.dll
+C:\Users\DELL\source\repos\FeedBack360Project\BLFeedBack360\bin\Debug\net7.0\ULFeedBack360.dll
+C:\Users\DELL\source\repos\FeedBack360Project\BLFeedBack360\bin\Debug\net7.0\DLFeedBack360.pdb
+C:\Users\DELL\source\repos\FeedBack360Project\BLFeedBack360\bin\Debug\net7.0\ULFeedBack360.pdb
+C:\Users\DELL\source\repos\FeedBack360Project\BLFeedBack360\obj\Debug\net7.0\BLFeedBack360.csproj.CopyComplete

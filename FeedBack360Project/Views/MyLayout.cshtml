@@ -1,0 +1,72 @@
+﻿<!DOCTYPE html>
+
+<html>
+<head>
+    <meta name="viewport" content="width=device-width" />
+    <title>@ViewBag.Title</title>
+    <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
+    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
+    <link rel="stylesheet" href="~/Feedback360.styles.css" asp-append-version="true" />
+</head>
+<body>
+    <div>
+        <h5 style="color:blue">
+            @{
+                @ViewBag.MyUserID
+            }
+        </h5>
+    </div>
+    <header>
+        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
+            <div class="container-fluid">
+
+                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
+                    <ul class="navbar-nav flex-grow-1">
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="UserManagement" asp-action="Home">Home |</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="ProvideFeedback" asp-action="CandidateList">Candidate List |</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="UserManagement" asp-action="ChangePassword">Change Password |</a>
+                        </li>
+
+                        @if (ViewBag.MyRole == "HR" || ViewBag.MyRole == "Admin")
+                        {
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" asp-area="" asp-controller="FeedbackSch" asp-action="ScheduleFB">FeedbackScheduling |</a>
+                            </li>
+                        }
+                        @if (ViewBag.MyRole == "HR")
+                        {
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" asp-area="" asp-controller="UserManagement" asp-action="Registration">User Registration |</a>
+                            </li>
+                        }
+
+                        @if (ViewBag.MyRole == "Admin")
+                        {
+                            <li class="nav-item">
+                                <a class="nav-link text-dark" asp-area="" asp-controller="ProvideFeedback" asp-action="FeedbackResult">Providing Result |</a>
+                            </li>
+                        }
+                        <li class="nav-item">
+                            <a class="nav-link text-dark" asp-area="" asp-controller="UserManagement" asp-action="LogOut">LogOut</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div>
+        @RenderBody()
+    </div>
+    <footer class="border-top footer text-muted">
+        <div class="container">
+            &copy; 2024 - Feedback360 - <a asp-area="" asp-controller="UserManagement" asp-action="Home">Home</a>
+        </div>
+    </footer>
+</body>
+</html>
+

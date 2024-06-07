@@ -1,0 +1,45 @@
+﻿@model DLFeedBack360.ViewModel.LoginViewModel
+
+@{
+    ViewData["Title"] = "Login";
+    Layout = "~/Views/MyLayout.cshtml";
+}
+
+<h1>Login</h1>
+
+<h4>LoginViewModel</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4 align-content-center">
+        <form asp-action="Login" style="background-color:mistyrose; border:solid;border-width:2px;width:100%;">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <br />
+            <div class="form-group">
+                <label asp-for="UserID" class="control-label"></label>
+                <input asp-for="UserID" class="form-control" />
+                <span asp-validation-for="UserID" class="text-danger"></span>
+            </div>
+            <br />
+            <div class="form-group">
+                <label asp-for="Password" class="control-label"></label>
+                <input asp-for="Password" class="form-control" />
+                <span asp-validation-for="Password" class="text-danger"></span>
+            </div>
+            <br />
+            <div class="form-group">
+                <input type="submit" value="Login" class="btn btn-primary" />
+                <br />
+                <a asp-area="" asp-controller="UserManagement" asp-action="ForgotPassword">Forget Password</a>
+                <br />
+            </div>
+        </form>
+        <br /> 
+        <div>
+            <h4 style="color:darkorange">@{
+                @ViewBag.LoginStatus
+            }</h4>
+        </div>
+        <br />
+    </div>
+</div>
+

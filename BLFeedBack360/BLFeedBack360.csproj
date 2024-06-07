@@ -1,0 +1,14 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net7.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\DLFeedBack360\DLFeedBack360.csproj" />
+    <ProjectReference Include="..\ULFeedBack360\ULFeedBack360.csproj" />
+  </ItemGroup>
+
+</Project>
